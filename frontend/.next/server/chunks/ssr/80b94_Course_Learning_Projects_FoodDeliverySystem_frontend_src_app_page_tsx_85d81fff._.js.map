@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/n00bie/Documents/Course/Learning/Projects/FoodDeliverySystem/frontend/src/app/page.tsx"],"sourcesContent":["\"use client\"\nimport { Truck, User } from \"lucide-react\";\nimport { useEffect } from \"react\";\nimport { useRouter } from \"next/navigation\";\n\n\n\n\n\n\nexport default function Home() {\n  const router = useRouter()\n\n  useEffect(() => {\n    if (!localStorage.getItem(\"token\")) {\n      router.push('/login')\n    }\n\n  }, [router])\n  return <div className=\"min-h-screen max-w-screen\">\n    {/*home*/}\n    <div className=\"flex items-center justify-center \">\n      <img src={'/Food.gif'} className=\"min-h-screen w-full\" alt=\"Internet available\" />\n\n\n    </div>\n\n\n\n\n\n  </div>\n\n\n}\n"],"names":[],"mappings":";;;;;AAEA;AACA;AAHA;;;;AAUe,SAAS;IACtB,MAAM,SAAS,IAAA,gOAAS;IAExB,IAAA,mSAAS,EAAC;QACR,IAAI,CAAC,aAAa,OAAO,CAAC,UAAU;YAClC,OAAO,IAAI,CAAC;QACd;IAEF,GAAG;QAAC;KAAO;IACX,qBAAO,+TAAC;QAAI,WAAU;kBAEpB,cAAA,+TAAC;YAAI,WAAU;sBACb,cAAA,+TAAC;gBAAI,KAAK;gBAAa,WAAU;gBAAsB,KAAI;;;;;;;;;;;;;;;;AAYjE","debugId":null}}]
+}

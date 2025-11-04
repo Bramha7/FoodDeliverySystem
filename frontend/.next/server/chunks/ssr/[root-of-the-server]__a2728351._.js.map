@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 11, "column": 0}, "map": {"version":3,"sources":["file:///home/n00bie/Documents/Course/Learning/Projects/FoodDeliverySystem/frontend/src/app/page.tsx"],"sourcesContent":["import { Truck, User } from \"lucide-react\";\n\n\nexport default function Home() {\n  return <div className=\"min-h-screen max-w-screen\">\n    {/*home*/}\n    <div className=\"home min-h-screen max-w-screen bg-yellow-500 border\"></div>\n\n\n  </div>\n\n\n}\n"],"names":[],"mappings":";;;;;;AAGe,SAAS;IACtB,qBAAO,8OAAC;QAAI,WAAU;kBAEpB,cAAA,8OAAC;YAAI,WAAU;;;;;;;;;;;AAMnB","debugId":null}}]
+}

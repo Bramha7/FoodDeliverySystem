@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 11, "column": 0}, "map": {"version":3,"sources":["file:///home/n00bie/Documents/Course/Learning/Projects/FoodDeliverySystem/frontend/src/app/cart/page.tsx"],"sourcesContent":["import Navbar from \"@/components/Navbar\";\n\nconst Cart = () => {\n  return (\n\n    <div className=\" w-full min-h-screen \">\n      <h2>hello world</h2>\n\n\n\n    </div>\n  )\n}\n\nexport default Cart;\n"],"names":[],"mappings":";;;;;;AAEA,MAAM,OAAO;IACX,qBAEE,+TAAC;QAAI,WAAU;kBACb,cAAA,+TAAC;sBAAG;;;;;;;;;;;AAMV;uCAEe","debugId":null}}]
+}

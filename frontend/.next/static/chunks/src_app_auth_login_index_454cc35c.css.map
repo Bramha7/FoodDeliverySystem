@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///home/n00bie/Documents/Course/Learning/Projects/FoodDeliverySystem/frontend/src/app/auth/login/index.css"],"sourcesContent":["* {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  background-image: url('/noodles.jpg');\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n"],"names":[],"mappings":"AAAA;;;;;;AAMA","debugId":null}}]
+}

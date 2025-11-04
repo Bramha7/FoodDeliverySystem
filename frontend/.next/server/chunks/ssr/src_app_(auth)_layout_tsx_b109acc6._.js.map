@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/n00bie/Documents/Course/Learning/Projects/FoodDeliverySystem/frontend/src/app/%28auth%29/layout.tsx"],"sourcesContent":["\n// app/layout.tsx\n\"use client\"\nimport 'react-toastify/dist/ReactToastify.css'\nimport { ToastContainer } from 'react-toastify'\n\nexport default function RootLayout({ children }: { children: React.ReactNode }) {\n  return (\n    <html lang=\"en\">\n      <body>\n        {children}\n        <ToastContainer\n          position=\"top-right\"\n          autoClose={3000}\n          hideProgressBar={false}\n          newestOnTop={false}\n          closeOnClick\n          rtl={false}\n          pauseOnFocusLoss\n          draggable\n          pauseOnHover\n        />\n      </body>\n    </html>\n  )\n}\n"],"names":[],"mappings":"AACA,iBAAiB;;;;;;AAGjB;AAFA;;;;AAIe,SAAS,WAAW,EAAE,QAAQ,EAAiC;IAC5E,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;;gBACE;8BACD,8OAAC,qKAAc;oBACb,UAAS;oBACT,WAAW;oBACX,iBAAiB;oBACjB,aAAa;oBACb,YAAY;oBACZ,KAAK;oBACL,gBAAgB;oBAChB,SAAS;oBACT,YAAY;;;;;;;;;;;;;;;;;AAKtB","debugId":null}}]
+}

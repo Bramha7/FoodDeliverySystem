@@ -1,0 +1,22 @@
+{
+  "pages": {
+    "/(auth)/register/page": [
+      "static/chunks/a8e50_440438d9._.js",
+      "static/chunks/[root-of-the-server]__337f7bd5._.js",
+      "static/chunks/[root-of-the-server]__ee0410d9._.css",
+      "static/chunks/c1dbc_Learning_Projects_FoodDeliverySystem_frontend_src_app_layout_tsx_211ae9b7._.js",
+      "static/chunks/a8e50_next_dist_client_components_builtin_global-error_e3b4519c.js",
+      "static/chunks/Documents_Course_Learning_Projects_FoodDeliverySystem_frontend_14350149._.js",
+      "static/chunks/934ae_Projects_FoodDeliverySystem_frontend_src_app_(auth)_register_page_tsx_e3b4519c._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_7485fa34._.js",
+      "static/chunks/a8e50_next_dist_compiled_react-dom_b2eb54cc._.js",
+      "static/chunks/a8e50_next_dist_compiled_next-devtools_index_9e9b4b23.js",
+      "static/chunks/a8e50_next_dist_compiled_e0a1fe06._.js",
+      "static/chunks/a8e50_next_dist_client_afa2bae8._.js",
+      "static/chunks/a8e50_next_dist_125a4c91._.js",
+      "static/chunks/a8e50_@swc_helpers_cjs_cb5f1970._.js",
+      "static/chunks/Documents_Course_Learning_Projects_FoodDeliverySystem_frontend_a0ff3932._.js",
+      "static/chunks/358b3_Course_Learning_Projects_FoodDeliverySystem_frontend_54eada0a._.js"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/n00bie/Documents/Course/Learning/Projects/FoodDeliverySystem/frontend/src/app/place-item/%5Bid%5D/page.tsx"],"sourcesContent":["\n\"use client\"\n\nimport { useEffect } from \"react\"\n\nconst SingleItem = ({ params }) => {\n\n\n  const { id } = params\n\n  useEffect(() => {\n\n  }, [])\n\n  return (\n\n    <div>SingleItem\n\n    </div>\n  )\n}\n\nexport default SingleItem\n"],"names":[],"mappings":";;;;;AAGA;;;AAFA;;AAIA,MAAM,aAAa;QAAC,EAAE,MAAM,EAAE;;IAG5B,MAAM,EAAE,EAAE,EAAE,GAAG;IAEf,IAAA,2PAAS;gCAAC,KAEV;+BAAG,EAAE;IAEL,qBAEE,8QAAC;kBAAI;;;;;;AAIT;GAfM;KAAA;uCAiBS","debugId":null}}]
+}

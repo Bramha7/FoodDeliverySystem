@@ -1,0 +1,131 @@
+### Login API
+
+POST {{URL}}/api/auth/customer/register HTTP/1.1
+Content-Type: application/json
+
+{
+  "username":"beautiful"
+  "email": "beautiful@gmail.com",
+  "password": "beautiful12345",
+  "phone_number"":"987878787",
+  "address": {
+    "street": "Shanti tole",
+    "ward": "20",
+    "city": "Itahari",
+    "landmark": "Hospital road"
+  }
+}
+
+
+### GET Request
+
+POST {{URL}}/api/auth/driver/register HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "testdriver@gmail.com",
+  "full_name": "Test Driver",
+  "location": "Itahari-20, sunsari",
+  "password": "driver12345",
+  "phone_number": "987654321",
+  "username": "testdriver",
+  "vehicle_type": "bicycle"
+}
+
+
+### sending images
+
+POST {{URL}}/api/auth/driver/register HTTP/1.1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary12345
+
+------WebKitFormBoundary12345
+Content-Disposition: form-data; name="username"
+
+testdriver2
+------WebKitFormBoundary12345
+Content-Disposition: form-data; name="full_name"
+
+Test Driver2
+------WebKitFormBoundary12345
+Content-Disposition: form-data; name="email"
+
+testdriver2@gmail.com
+------WebKitFormBoundary12345
+Content-Disposition: form-data; name="phone_number"
+
+987654322
+------WebKitFormBoundary12345
+Content-Disposition: form-data; name="password"
+
+driver12345
+------WebKitFormBoundary12345
+Content-Disposition: form-data; name="location"
+
+Inaruwa-20, sunsari
+------WebKitFormBoundary12345
+Content-Disposition: form-data; name="vehicle_type"
+
+bicycle
+------WebKitFormBoundary12345
+Content-Disposition: form-data; name="image"; filename="davidbombal.png"
+Content-Type: image/png
+
+</home/n00bie/Pictures/davidbombal.png
+------WebKitFormBoundary12345--
+
+
+### driver login
+
+POST {{URL}}/api/auth/driver/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "test@gmail.com",
+  "password": "testdriver12345"
+}
+
+
+### admin login
+
+POST {{URL}}/api/auth/admin/login HTTP/1.1
+
+{
+  "email": "admin@prashu.com",
+  "password": "adminpassword"
+}
+
+
+### customer register
+
+POST {{URL}}/api/auth/customer/register HTTP/1.1
+Content-Type: application/json
+
+{
+  "address": {
+    "city": "Itahari",
+    "landmark": "Hospital road",
+    "street": "Shanti-tole",
+    "ward": "20"
+  },
+  "email": "prashannaghimire29@gmail.com",
+  "password": "nodemailer",
+  "phone_number": "98453322232",
+  "username": "nodemailer"
+}
+
+
+### Get all menu items
+
+POST {{URL}}/api/menu/fetch HTTP/1.1
+Authrorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTYyY2FjYmI0ZDc4Yjc1MTIyYWFkNSIsImVtYWlsIjoiY2h1YmJ5QGdtYWlsLmNvbSIsImlhdCI6MTc2MDQxMjUyNywiZXhwIjoxNzYwNDk4OTI3fQ.xu16BsbrwmTYBB0joYC48U1leseUCSQy07dYyoCPq-o
+
+### edit menu item
+
+POST {{url}}/api/menu/edit/68d9538083162dce8566ec00 HTTP/1.1
+Content-Type: application/json
+
+{
+  "category": "fast food",
+  "description": "pizza is best",
+  "name": "Pizza"
+}

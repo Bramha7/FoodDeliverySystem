@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 11, "column": 0}, "map": {"version":3,"sources":["file:///home/n00bie/Documents/Course/Learning/Projects/FoodDeliverySystem/frontend/src/app/place-item/page.tsx"],"sourcesContent":["const PlaceItems = () => {\n  return (\n    <>\n\n      <h1>Place Items</h1>\n    </>\n\n  )\n\n}\nexport default PlaceItems;\n"],"names":[],"mappings":";;;;;;AAAA,MAAM,aAAa;IACjB,qBACE;kBAEE,cAAA,+TAAC;sBAAG;;;;;;;AAKV;uCACe","debugId":null}}]
+}

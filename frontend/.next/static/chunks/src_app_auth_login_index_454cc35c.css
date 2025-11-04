@@ -1,0 +1,15 @@
+/* [project]/src/app/auth/login/index.css [app-client] (css) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("/noodles.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=src_app_auth_login_index_454cc35c.css.map*/

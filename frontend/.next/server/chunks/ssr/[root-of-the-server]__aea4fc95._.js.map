@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 11, "column": 0}, "map": {"version":3,"sources":["file:///home/n00bie/Documents/Course/Learning/Projects/FoodDeliverySystem/frontend/src/app/auth/login/page.tsx"],"sourcesContent":["const Login = () => {\n  return <>\n    <div>\n      <p>Login</p>\n\n    </div>\n\n  </>\n\n}\n\nexport default Login\n"],"names":[],"mappings":";;;;;;AAAA,MAAM,QAAQ;IACZ,qBAAO;kBACL,cAAA,8OAAC;sBACC,cAAA,8OAAC;0BAAE;;;;;;;;;;;;AAMT;uCAEe","debugId":null}}]
+}

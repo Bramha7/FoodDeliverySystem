@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 11, "column": 0}, "map": {"version":3,"sources":["file:///home/n00bie/Documents/Course/Learning/Projects/FoodDeliverySystem/frontend/src/components/Footer.tsx"],"sourcesContent":["const Footer = () => {\n  return (\n    <footer className=\"\">\n      <p>hello</p>\n\n\n    </footer>\n\n\n  )\n}\n\nexport default Footer\n\n"],"names":[],"mappings":";;;;;;AAAA,MAAM,SAAS;IACb,qBACE,8OAAC;QAAO,WAAU;kBAChB,cAAA,8OAAC;sBAAE;;;;;;;;;;;AAOT;uCAEe","debugId":null}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":["file:///home/n00bie/Documents/Course/Learning/Projects/FoodDeliverySystem/frontend/src/app/page.tsx"],"sourcesContent":["import Footer from \"@/components/Footer\";\n\n\nexport default function Home() {\n  return <>\n    <h1>Home</h1>\n    <Footer />\n  </>\n\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAGe,SAAS;IACtB,qBAAO;;0BACL,8OAAC;0BAAG;;;;;;0BACJ,8OAAC,uIAAM;;;;;;;AAGX","debugId":null}}]
+}

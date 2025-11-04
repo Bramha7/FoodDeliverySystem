@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/n00bie/Documents/Course/Learning/Projects/FoodDeliverySystem/frontend/src/app/page.tsx"],"sourcesContent":["\"use client\"\nimport { Truck, User } from \"lucide-react\";\nimport { useEffect } from \"react\";\nimport { useRouter } from \"next/navigation\";\n\n\n\n\n\n\nexport default function Home() {\n  const router = useRouter()\n\n  useEffect(() => {\n    if (!localStorage.getItem(\"token\")) {\n      router.push('/login')\n    }\n\n  }, [router])\n  return <div className=\"min-h-screen max-w-screen\">\n    {/*home*/}\n    <div className=\"home min-h-screen max-w-screen bg-yellow-500 border\"></div>\n\n\n  </div>\n\n\n}\n"],"names":[],"mappings":";;;;;AAEA;AACA;;;AAHA;;;AAUe,SAAS;;IACtB,MAAM,SAAS,IAAA,kJAAS;IAExB,IAAA,0KAAS;0BAAC;YACR,IAAI,CAAC,aAAa,OAAO,CAAC,UAAU;gBAClC,OAAO,IAAI,CAAC;YACd;QAEF;yBAAG;QAAC;KAAO;IACX,qBAAO,6LAAC;QAAI,WAAU;kBAEpB,cAAA,6LAAC;YAAI,WAAU;;;;;;;;;;;AAMnB;GAjBwB;;QACP,kJAAS;;;KADF","debugId":null}}]
+}
